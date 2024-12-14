@@ -1,0 +1,14 @@
+main: org.winlogon.restorecraft.RestoreCraft
+name: ${NAME}
+version: "${VERSION}"
+api-version: "1.21.1"
+author: walker84837
+description: RestoreCraft - Healing player, simplified and uncomplicated.
+commands:
+  heal:
+    description: Heal a player or yourself
+    usage: "/heal <player>"
+permissions:
+  heal.admin:
+    description: Permissions to heal a player or yourself
+    default: op
