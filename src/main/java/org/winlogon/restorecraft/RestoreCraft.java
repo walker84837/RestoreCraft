@@ -8,6 +8,7 @@ public class RestoreCraft extends JavaPlugin {
         saveDefaultConfig();
         HealCommand healCommand = new HealCommand();
         healCommand.removeEffects = getConfig().getBoolean("remove-effects", true);
+        healCommand.showWhoHealed = getConfig().getBoolean("show-who-healed", false);
 
         getCommand("heal").setExecutor(healCommand);
         getLogger().info("RestoreCraft enabled!");

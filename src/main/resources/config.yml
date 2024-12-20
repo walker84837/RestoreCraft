@@ -1,5 +1,10 @@
-# RestoreCraft: an easy, uncomplicated and simplified healing plugin
+# RestoreCraft: Healing players, simplified and uncomplicated.
 # https://github.com/walker84837/RestoreCraft
 
-# Other than healing, remove all of the player's effects
+# Other than healing a target, remove all of the player's effects. If not provided,
+# defaults to true.
 remove-effects: true
+
+# When healing a target, tell the target who healed them. If disabled, this only tells
+# the target that they were healed. If not provided, defaults to false.
+show-who-healed: true
